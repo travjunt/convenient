@@ -38,19 +38,19 @@ const IndexPage = () => (
         <Card 
           title="Pitch Perfect"
           text="12 sections"
-          image={require('../images/wallpaper.jpg')} />
+          image={require('../images/jshine.jpg')} />
         <Card 
           title="MemeMe"
           text="12 sections"
-          image={require('../images/wallpaper2.jpg')} />
+          image={require('../images/flare.jpg')} />
         <Card 
           title="On The Map"
           text="12 sections"
-          image={require('../images/wallpaper3.jpg')} />
+          image={require('../images/bydesign.jpg')} />
         <Card 
           title="Virtual Tourist"
           text="12 sections"
-          image={require('../images/wallpaper4.jpg')} />
+          image={require('../images/amin.jpg')} />
         </div>
     </div>
   </div>
