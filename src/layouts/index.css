@@ -15,12 +15,9 @@ a {
 }
 
 .Hero { 
-  /* background: url('../images/wallpaper3.jpg'); */
-
-  
-  background: #2193b0;
-  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
-  background: linear-gradient(to right, #6dd5ed, #2193b0); 
+  background: #00B4DB;  
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  
+  background: linear-gradient(to right, #0083B0, #00B4DB); 
   height: 560px;
   background-size: cover;
   background-position: center;
@@ -76,7 +73,7 @@ a {
 }
 
 .Hero a:hover {
-  background: rgb(255, 255, 255);
+  background: white;
   color: black;
 }
 
@@ -157,6 +154,6 @@ a {
 
 @media (max-width: 720px) {
   .CardGroup {
-    grid-tempalte-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
