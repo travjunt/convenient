@@ -1,0 +1,16 @@
+{
+    "cells": [
+        {
+            "title": "Intro to React",
+            "image": "https://cl.ly/e1873cc5d191/download/logo-swift.png"
+        },
+        {
+            "title": "Second Line of text",
+            "image": "https://cl.ly/e1873cc5d191/download/logo-swift.png"
+        },
+        {
+            "title": "Third Line of text",
+            "image": "https://cl.ly/e1873cc5d191/download/logo-swift.png"
+        }
+    ]
+}
