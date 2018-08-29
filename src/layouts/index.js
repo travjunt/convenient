@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-
 import Header from '../components/header'
 import './index.css'
+import Footer from '../components/Footer';
 
 const Layout = ({ children, data }) => (
   <div>
@@ -16,9 +16,7 @@ const Layout = ({ children, data }) => (
     />
     <Header />
     {children()}
-    {data.allContentfulLink.edges.map(edge => (
-      <a href={edge.node.url}>{edge.node.title}</a>
-    ))}
+    <Footer data={data} />
     </div>
 )
 
