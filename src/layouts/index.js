@@ -17,7 +17,7 @@ const Layout = ({ children, data }) => (
     <Header />
     {children()}
     <Footer data={data}> 
-      I built this website myself using React, CSS, Contentful, Netlify, and Gatsby. Travis McCormick. <a href="mailto:tmccorm.dev@gmail.com">Email me</a> 
+      I built this website myself using React, CSS, Contentful, Netlify, and Gatsby. Travis McCormick. You can view the source <a href="https://github.com/travjunt/travis">code on Github</a> 
     </Footer>
     </div>
 )
