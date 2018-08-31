@@ -52,22 +52,22 @@ const IndexPage = () => (
         <Card 
           title="Pitch Perfect"
           text="12 sections"
-          image={require('../images/logo-xcode.jpg')} 
+          image={require('../images/quepal.jpg')} 
           />
         <Card 
           title="MemeMe"
           text="12 sections"
-          image={require('../images/logo-xcode.jpg')} 
+          image={require('../images/quepal.jpg')} 
           />
         <Card 
           title="On The Map"
           text="12 sections"
-          image={require('../images/logo-xcode.jpg')} 
+          image={require('../images/quepal.jpg')} 
           />
         <Card 
           title="Virtual Tourist"
           text="12 sections"
-          image={require('../images/logo-xcode.jpg')} 
+          image={require('../images/quepal.jpg')} 
           />
       </div>
     </div>

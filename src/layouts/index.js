@@ -16,7 +16,9 @@ const Layout = ({ children, data }) => (
     />
     <Header />
     {children()}
-    <Footer data={data} />
+    <Footer data={data}> 
+      I build this website myself using React, CSS, Contentful, Netlify, and Gatsby. Travis McCormick. <a href="mailto:tmccorm.dev@gmail.com">Email me</a> 
+    </Footer>
     </div>
 )
 
@@ -35,11 +37,12 @@ export const query = graphql`
         keywords
       }
     }
-    allContentfulLink {
+    allContentfulLink(sort: { fields: [createdAt], order: ASC }) {
       edges {
         node {
           title
           url
+          createdAt
           
         }
       }
