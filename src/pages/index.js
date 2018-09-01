@@ -62,7 +62,7 @@ const IndexPage = () => (
         <Card 
           title="On The Map"
           text="12 sections"
-          image={require('../images/wallpaper.jpg')} 
+          image={require('../images/duotone.png')} 
           />
         <Card 
           title="Virtual Tourist"
@@ -72,7 +72,7 @@ const IndexPage = () => (
       </div>
     </div>
     <Section 
-      image={require('../images/wallpaper.jpg')}
+      image={require('../images/duotone.png')}
       logo={require('../images/logo-react.png')}
       title="Learning React"
       text="Fill in a bunch of text here not sure yet."
