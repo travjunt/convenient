@@ -39,6 +39,8 @@ const LinkGroup = styled.div`
     display: grid;
     grid-template-column: repeat(2, 1fr);
     grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
 
     a {
         transition: 0.8s;
@@ -50,6 +52,7 @@ const Copyright = styled.div`
     max-width: 500px;
     margin: 0 auto;
     padding: 0 20px;
+    text-align: center;
 
 `
 
