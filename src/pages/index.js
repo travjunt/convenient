@@ -36,12 +36,7 @@ const IndexPage = () => (
         <p>iOS Developer</p>
         <Link to="/page-2/">Portfolio</Link>
         <div className="Logos">
-          <img src={require('../images/logo-figma.png')} width="50" />
-          <img src={require('../images/logo-react.png')} width="50" />
-          <img src={require('../images/logo-sketch.png')} width="50" />
           <img src={require('../images/logo-swift.png')} width="50" />
-          <img src={require('../images/logo-framer.png')} width="50" />
-          <img src={require('../images/logo-studio.png')} width="50" />
         </div>
         
       </div>
