@@ -15,7 +15,7 @@ a {
 }
 
 .Hero {
-  background: url(/images/landing-wallpaper.jpg);
+  background: url(/src/images/landing-wallpaper.jpg);
   height: 900px;
   background-size: cover;
   background-position: center;
