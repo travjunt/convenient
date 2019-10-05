@@ -17,7 +17,7 @@ const Layout = ({ children, data }) => (
     <Header />
     {children()}
     <Footer data={data}> 
-      Built by Travis McCormick. <a href="https://github.com/travjunt/travis">View source code.</a> 
+    <a href="mailto:andy@theconvenientcompany.com"> Email us. The Convenient Company © 2019</a> 
     </Footer>
     </div>
 )

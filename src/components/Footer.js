@@ -4,25 +4,24 @@ import styled from 'styled-components'
 const FooterGroup = styled.div`
     background: #F1F3F5;
     padding: 50px 0;
+    justify-self: center;
     display: grid;
     grid-gap: 20px;
 `
 const Text = styled.p`
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
-    color: #486791;
+    color: grey;
     max-width: 500px;
-    margin: 0 auto;
-    justify-self: center;
+    margin: 15px auto;
 `
 const Button = styled.button`
-    background: linear-gradient(102.24deg, #9B51E0 0%, #3436E7 100%);
+    background: #56CCF2;
     box-shadow: 0px 10px 20px rgba(101, 41, 255, 0.15);
     border-radius: 30px;
     color: white;
     border: none;
     padding: 16px 60px;
-    width: 252px;
     font-weight: 600;
     font-size: 24px;
     justify-self: center;
@@ -34,16 +33,22 @@ const Button = styled.button`
     }
 `
 const LinkGroup = styled.div`
-    width: 500px;
-    margin: 50px auto;
+    width: 350px;
+    margin: 75px auto;
     display: grid;
-    grid-template-column: repeat(2, 1fr);
-    grid-gap: 10px;
+    font-size: 16px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
     align-items: center;
-    justify-items: center;
+    text-align: center;
+    padding-bottom: 2px;
 
     a {
         transition: 0.8s;
+    }
+
+    a:hover {
+        color: black;
     }
 `
 
@@ -51,17 +56,18 @@ const Copyright = styled.div`
     color: #486791;
     max-width: 500px;
     margin: 0 auto;
-    padding: 0 20px;
-    text-align: center;
-
+    padding: 0 10px;
+    font-size: 16px;
 `
-
 
 const Footer = ({data, children}) => (
     <FooterGroup>
-        <Text>Want to grab a coffee?</Text>
-        <Button>Get in Touch</Button>
-        <LinkGroup>{data.allContentfulLink.edges.map(edge => (
+      <Text>Questions? Comments?</Text>
+      <Button>Lets get in touch</Button>
+      {/* <LinkGroup> 
+        <a href="mailto:andy@theconvenientcompany.com">Contact Us</a>
+      </LinkGroup> */}
+      <LinkGroup>{data.allContentfulLink.edges.map(edge => (
         <a href={edge.node.url}>{edge.node.title}</a>
       ))}</LinkGroup>
       <Copyright>{children}</Copyright>
