@@ -15,8 +15,9 @@ a {
 }
 
 .Hero {
-  background: url(/src/images/landing-wallpaper.jpg);
-  background-color: #56CCF2;
+  background: #00B4DB;  
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  
+  background: linear-gradient(to right, #0083B0, #00B4DB); 
   height: 900px;
   background-size: cover;
   background-position: center;
